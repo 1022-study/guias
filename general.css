@@ -1,0 +1,50 @@
+body{
+    background: white;
+}
+
+#title{
+    width: 100%;
+    height: 40px;
+    margin: -10px;
+    margin-top: -10px;
+    text-align: center;
+    background: rgb(5, 69, 112);
+    color: white;
+    padding: 10px;
+}
+
+#guias{
+    margin-top: 35px;
+    width: 100%;
+    height: 100%;
+}
+
+div{
+    width: 50%;
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+#div1:hover{
+    background: gray;
+}
+
+iframe{
+    width: 95%;
+    height: 1000px;
+    display: block;
+    margin: auto;
+    /*border: solid rgb(79, 96, 128) 1px;*/
+    border: none;
+}
+#flip-entry-visual, .flip-list-view .flip-list-header, .flip-entry-last-writer{
+    color: white;
+}
+.flip-list-view .flip-list-header{
+    color: red;
+}
+
+.flip-entry-last-writer{
+    margin-left: 530px;
+}
